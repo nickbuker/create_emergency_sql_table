@@ -1,0 +1,24 @@
+CREATE TABLE
+  emergency
+  (mariners_home integer
+  ,seahawks_home integer
+  ,sounders_home integer
+  ,trav_holiday integer
+  ,dang_holiday integer
+  ,night integer
+  ,Monday integer
+  ,Saturday integer
+  ,Sunday integer
+  ,Thursday integer
+  ,Tuesday integer
+  ,Wednesday integer
+  ,day_num integer
+  ,zone1 integer
+  ,zone2 integer
+  ,zone3 integer
+  ,zone4 integer
+  ,zone5 integer
+  ,zone6 integer
+  ,zone7 integer
+  ,seasonality decimal
+  ,freq integer);

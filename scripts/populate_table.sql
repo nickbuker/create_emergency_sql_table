@@ -1,0 +1,28 @@
+COPY
+  emergency
+  (mariners_home
+  ,seahawks_home
+  ,sounders_home
+  ,trav_holiday
+  ,dang_holiday
+  ,night
+  ,Monday
+  ,Saturday
+  ,Sunday
+  ,Thursday
+  ,Tuesday
+  ,Wednesday
+  ,day_num
+  ,zone1
+  ,zone2
+  ,zone3
+  ,zone4
+  ,zone5
+  ,zone6
+  ,zone7
+  ,seasonality
+  ,freq)
+FROM
+  '/home/nick/Desktop/projects/seattle_emergency_database/data/model_data_counted_no_out.csv'
+  HEADER
+  CSV;
