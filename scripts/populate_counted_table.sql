@@ -1,5 +1,5 @@
 COPY
-  emergency
+  counted_emergency
   (mariners_home
   ,seahawks_home
   ,sounders_home

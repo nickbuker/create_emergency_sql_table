@@ -1,5 +1,5 @@
 CREATE TABLE
-  emergency
+  counted_emergency
   (mariners_home integer
   ,seahawks_home integer
   ,sounders_home integer
