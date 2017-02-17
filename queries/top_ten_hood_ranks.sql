@@ -6,7 +6,6 @@ FROM
   raw_emergency
 GROUP BY
   neighborhood
-ORDER BY
-  rank
 LIMIT
   10;
+
