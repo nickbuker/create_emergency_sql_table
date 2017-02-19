@@ -1,8 +1,20 @@
 SELECT
-  freq
+  RANK() OVER(ORDER BY SUM(freq) DESC) AS rank
+  ,SUM(freq) AS num_emer
+  ,zone1
+  ,zone2
+  ,zone3
+  ,zone4
+  ,zone5
+  ,zone6
+  ,zone7
 FROM
   counted_emergency
-WHERE
-  zone1 = 1
-LIMIT
-  10;
+GROUP BY
+  zone1
+  ,zone2
+  ,zone3
+  ,zone4
+  ,zone5
+  ,zone6
+  ,zone7;
