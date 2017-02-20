@@ -37,7 +37,7 @@ COPY
   ,zone7
   ,seasonality)
 FROM
-  '/home/nick/Desktop/projects/seattle_emergency_database/data/seattle_911_prepped_no_out1.csv'
+  '/home/nick/Desktop/projects/seattle_emergency/data/prepped/seattle_911_prepped_no_out1.csv'
   HEADER
   CSV;
 
@@ -81,6 +81,6 @@ COPY
   ,zone7
   ,seasonality)
 FROM
-  '/home/nick/Desktop/projects/seattle_emergency_database/data/seattle_911_prepped_no_out2.csv'
+  '/home/nick/Desktop/projects/seattle_emergency/data/prepped/seattle_911_prepped_no_out2.csv'
   HEADER
   CSV;

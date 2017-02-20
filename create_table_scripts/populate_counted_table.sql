@@ -23,6 +23,6 @@ COPY
   ,seasonality
   ,freq)
 FROM
-  '/home/nick/Desktop/projects/seattle_emergency_database/data/model_data_counted_no_out.csv'
+  '/home/nick/Desktop/projects/seattle_emergency/data/prepped/model_data_counted_no_out.csv'
   HEADER
   CSV;
