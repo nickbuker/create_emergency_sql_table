@@ -4,13 +4,13 @@ SELECT
   ,neighborhood
 FROM
   (SELECT
-    COUNT(*) as freq
+    COUNT(*) AS freq
     ,neighborhood
   FROM
     emergency
   WHERE
-    type LIKE '%Aid%'
+    type LIKE '%Medic%'
   GROUP BY
-    neighborhood) as sub
+    neighborhood) AS sub
 LIMIT
   10;
